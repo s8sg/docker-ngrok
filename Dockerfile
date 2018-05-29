@@ -22,6 +22,6 @@ RUN set -x \
 
 USER ngrok
 
-EXPOSE 4040
+EXPOSE 6060
 
 CMD ["/entrypoint.sh"]
